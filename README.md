@@ -20,10 +20,21 @@ My dotfiles are for the following:
 brew install atuin eza starship zoxide
 ```
 2. Make sure that you have GNU Stow installed.
-if not install with brew: `brew install stow`
+if not install with brew:
+```bash
+brew install stow
+```
 
 3. Clone the repository
-`git clone git@github.com:eXsoR65/dotfiles.git ~/`
+```bash
+git clone git@github.com:eXsoR65/dotfiles.git ~/dotfiles
+```
 
 4. Change directory to ~/dotfile and run stow to link them. 
-`cd ~/dotfiles && stow .`
+```bash 
+cd ~/dotfiles && stow .
+```
+
+### Screenshot
+![screenshot](screenshot.png)
+
