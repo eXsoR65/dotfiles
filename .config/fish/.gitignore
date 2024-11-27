@@ -1,0 +1,5 @@
+## Fish Shell dir and files to ignore ##
+completions/
+conf.d/
+functions/
+fish_variables
