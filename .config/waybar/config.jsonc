@@ -19,6 +19,7 @@
         "idle_inhibitor",
         "pulseaudio",
         "network",
+        "power-profiles-daemon",
         "cpu",
         "memory",
 	      "backlight",
@@ -124,8 +125,20 @@
     },
     "battery#bat2": {
         "bat": "BAT2"
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
     }
-},{
+},
+{
     "output": "!eDP-1",
     "layer": "top", // Waybar at top layer
     //"position": "top", // Waybar position (top|bottom|left|right)
